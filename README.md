@@ -1,5 +1,5 @@
 ### Description
-* The plugin adds to your server a unique class of zombies, which allows you to jump in the direction of your sight (buttons Reloaded).
+* Boomer is another class of zombies for Zombies: Reloaded as a Boomer in L4D. It can erupt vomit for a short distance (buttons Reloaded [R]). When his vomit falls on the player, he stops to see clearly what is happening.
 
 ### Requirements
 * This plugin requires Zombie:Reloaded and ZR Tools.
