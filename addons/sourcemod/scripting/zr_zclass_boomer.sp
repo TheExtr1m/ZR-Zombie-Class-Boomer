@@ -52,10 +52,10 @@ char sClientVMT[PLATFORM_MAX_PATH] = VMT_CODE;
 public void OnPluginStart()
 {
 	gCV_PEnabled 			= 	CreateConVar("sm_boomer_enabled", "1", "Responsible for the operation of the class on the server", 0, true, 0.0, true, 1.0);
-	gCV_PVomitDistance		= 	CreateConVar("sm_boomer_distance", "280.0", "", 0, true, 0.0, true, 2700.0);
-	gCV_PVomitRadius		= 	CreateConVar("sm_boomer_radius", "80.0", "", 0, true, 0.0, true, 2700.0);
-	gCV_PResetOverlay		= 	CreateConVar("sm_boomer_resetovelay", "15.0", "", 0, true, 0.0, true, 2700.0);
-	gCV_PResetVomit			= 	CreateConVar("sm_boomer_resetvomit", "15.0", "", 0, true, 0.0, true, 2700.0);
+	gCV_PVomitDistance		= 	CreateConVar("sm_boomer_distance", "280.0", "The distance at which the ability", 0, true, 0.0, true, 1000.0);
+	gCV_PVomitRadius		= 	CreateConVar("sm_boomer_radius", "80.0", "The radius on which the ability", 0, true, 0.0, true, 360.0);
+	gCV_PResetOverlay		= 	CreateConVar("sm_boomer_resetovelay", "15.0", "Time through which the player's overlay will be removed", 0, true, 0.0, true, 60.0);
+	gCV_PResetVomit			= 	CreateConVar("sm_boomer_resetvomit", "15.0", "Cooldown ability", 0, true, 0.0, true, 60.0);
 	gCV_PSound_mp3			= 	CreateConVar("sm_boomer_sound", "zr/bv1.mp3", "Way to the sound");
 	gCV_PVomit_VMT			= 	CreateConVar("sm_boomer_vomit_vmt", "materials/overlays/zrblyvota.vtf", "Way to the VMT");
 	gCV_PSound_VTF			= 	CreateConVar("sm_boomer_vomit_vtf", "materials/overlays/zrblyvota.vmt", "Way to the VTF");
